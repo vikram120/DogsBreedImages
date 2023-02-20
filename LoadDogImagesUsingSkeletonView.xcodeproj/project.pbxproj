@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200DCF56C676165BD2BB05EF /* Pods_LoadDogImagesUsingSkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60762994BB180356D4F6D061 /* Pods_LoadDogImagesUsingSkeletonView.framework */; };
 		98C29DAC29A39F01004890F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C29DAB29A39F01004890F3 /* AppDelegate.swift */; };
 		98C29DAE29A39F01004890F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C29DAD29A39F01004890F3 /* SceneDelegate.swift */; };
 		98C29DB029A39F01004890F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C29DAF29A39F01004890F3 /* ViewController.swift */; };
 		98C29DB329A39F01004890F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C29DB129A39F01004890F3 /* Main.storyboard */; };
 		98C29DB529A39F04004890F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C29DB429A39F04004890F3 /* Assets.xcassets */; };
 		98C29DB829A39F04004890F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C29DB629A39F04004890F3 /* LaunchScreen.storyboard */; };
+		98C29DC029A3A0B2004890F3 /* DogsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C29DBF29A3A0B2004890F3 /* DogsTVC.swift */; };
+		98C29DC229A3A1B1004890F3 /* DogsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C29DC129A3A1B1004890F3 /* DogsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		193E7B4B3B6673FD2887B5A3 /* Pods-LoadDogImagesUsingSkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadDogImagesUsingSkeletonView.release.xcconfig"; path = "Target Support Files/Pods-LoadDogImagesUsingSkeletonView/Pods-LoadDogImagesUsingSkeletonView.release.xcconfig"; sourceTree = "<group>"; };
+		60762994BB180356D4F6D061 /* Pods_LoadDogImagesUsingSkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadDogImagesUsingSkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C29DA829A39F01004890F3 /* LoadDogImagesUsingSkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadDogImagesUsingSkeletonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C29DAB29A39F01004890F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C29DAD29A39F01004890F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		98C29DB429A39F04004890F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C29DB729A39F04004890F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C29DB929A39F04004890F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C29DBF29A3A0B2004890F3 /* DogsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTVC.swift; sourceTree = "<group>"; };
+		98C29DC129A3A1B1004890F3 /* DogsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsData.swift; sourceTree = "<group>"; };
+		E11802C6C666DFB6DAEF01C6 /* Pods-LoadDogImagesUsingSkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadDogImagesUsingSkeletonView.debug.xcconfig"; path = "Target Support Files/Pods-LoadDogImagesUsingSkeletonView/Pods-LoadDogImagesUsingSkeletonView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200DCF56C676165BD2BB05EF /* Pods_LoadDogImagesUsingSkeletonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F702D184FB391E80833DD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E11802C6C666DFB6DAEF01C6 /* Pods-LoadDogImagesUsingSkeletonView.debug.xcconfig */,
+				193E7B4B3B6673FD2887B5A3 /* Pods-LoadDogImagesUsingSkeletonView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		98C29D9F29A39F01004890F3 = {
 			isa = PBXGroup;
 			children = (
 				98C29DAA29A39F01004890F3 /* LoadDogImagesUsingSkeletonView */,
 				98C29DA929A39F01004890F3 /* Products */,
+				4F702D184FB391E80833DD4F /* Pods */,
+				B77742D9C9B6BC0BB7B0677E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +79,22 @@
 				98C29DAB29A39F01004890F3 /* AppDelegate.swift */,
 				98C29DAD29A39F01004890F3 /* SceneDelegate.swift */,
 				98C29DAF29A39F01004890F3 /* ViewController.swift */,
+				98C29DBF29A3A0B2004890F3 /* DogsTVC.swift */,
+				98C29DC129A3A1B1004890F3 /* DogsData.swift */,
 				98C29DB129A39F01004890F3 /* Main.storyboard */,
 				98C29DB429A39F04004890F3 /* Assets.xcassets */,
 				98C29DB629A39F04004890F3 /* LaunchScreen.storyboard */,
 				98C29DB929A39F04004890F3 /* Info.plist */,
 			);
 			path = LoadDogImagesUsingSkeletonView;
+			sourceTree = "<group>";
+		};
+		B77742D9C9B6BC0BB7B0677E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60762994BB180356D4F6D061 /* Pods_LoadDogImagesUsingSkeletonView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98C29DBC29A39F04004890F3 /* Build configuration list for PBXNativeTarget "LoadDogImagesUsingSkeletonView" */;
 			buildPhases = (
+				AD0E271236D5D1546771489C /* [CP] Check Pods Manifest.lock */,
 				98C29DA429A39F01004890F3 /* Sources */,
 				98C29DA529A39F01004890F3 /* Frameworks */,
 				98C29DA629A39F01004890F3 /* Resources */,
+				79349410BA557894E05EF26A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +165,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79349410BA557894E05EF26A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoadDogImagesUsingSkeletonView/Pods-LoadDogImagesUsingSkeletonView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoadDogImagesUsingSkeletonView/Pods-LoadDogImagesUsingSkeletonView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoadDogImagesUsingSkeletonView/Pods-LoadDogImagesUsingSkeletonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0E271236D5D1546771489C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoadDogImagesUsingSkeletonView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98C29DA429A39F01004890F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +214,8 @@
 			files = (
 				98C29DB029A39F01004890F3 /* ViewController.swift in Sources */,
 				98C29DAC29A39F01004890F3 /* AppDelegate.swift in Sources */,
+				98C29DC229A3A1B1004890F3 /* DogsData.swift in Sources */,
+				98C29DC029A3A0B2004890F3 /* DogsTVC.swift in Sources */,
 				98C29DAE29A39F01004890F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +358,7 @@
 		};
 		98C29DBD29A39F04004890F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11802C6C666DFB6DAEF01C6 /* Pods-LoadDogImagesUsingSkeletonView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		98C29DBE29A39F04004890F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193E7B4B3B6673FD2887B5A3 /* Pods-LoadDogImagesUsingSkeletonView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
